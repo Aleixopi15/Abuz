@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+
 * {
   margin: 0 auto;
   padding: 0;
     box-sizing: border-box;
+    font-family: 'Andika New Basic', sans-serif;
   }
   h1 {
     font-style: normal;
@@ -14,6 +17,25 @@
     text-align: center;
   }
   #menu-h{
+    background-color: rgb(138, 253, 123);
+  }
+  #menu-h ul{
 list-style: none;
+max-width: 600px;
+background-color: rgb(138, 253, 123);
 padding: 0;
   }
+#menu-h ul li{
+  display: inline;
+
+}
+#menu-h ul li a{
+  display: inline-block;
+  color: black;
+  padding: 20px;
+text-decoration: none;
+transition: background .4s;
+}
+#menu-h ul li a:hover{
+  background-color: rgb(21, 255, 0);
+}
