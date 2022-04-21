@@ -19,7 +19,8 @@ app.use(express.static("public"));
 
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index.html");
+  response.sendFile(__dirname + "/index/html/index.html");
+  
 });
 
 // send the default array of dreams to the webpage
@@ -30,5 +31,5 @@ app.get("/dreams", (request, response) => {
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
+  console.log("Site: http://localhost:" + listener.address().port);
 });

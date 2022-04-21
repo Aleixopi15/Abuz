@@ -8,7 +8,7 @@
   }
   h1 {
     font-style: normal;
-   font-family: arial;
+    font-family: 'Andika New Basic', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 50px;
     max-width: calc(100% - 5rem);
