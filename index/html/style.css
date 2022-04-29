@@ -55,10 +55,17 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 9 0px;
     width: 200px;
 }
 
 h4 {
-  
+    font-style: normal;
+  font-family: 'Andika New Basic', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 40px;
+  max-width: calc(100% - 5rem);
+  line-height: 3;
+  font-weight: 10;
+  text-align: center;
 }
