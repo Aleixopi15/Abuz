@@ -21,7 +21,7 @@
   }
   #menu-h ul{
 list-style: none;
-max-width: 600px;
+max-width: 400px;
 background-color: rgb(138, 253, 123);
 padding: 0;
   }
@@ -38,4 +38,27 @@ transition: background .4s;
 }
 #menu-h ul li a:hover{
   background-color: rgb(21, 255, 0);
+}
+
+h3 {
+  font-style: normal;
+  font-family: 'Andika New Basic', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 40px;
+  max-width: calc(100% - 5rem);
+  line-height: 10;
+  font-weight: 10;
+  text-align: center;
+}
+ 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 200px;
+}
+
+h4 {
+  
 }
