@@ -1,16 +1,1 @@
-{ "//1": "describes your app and its dependencies",
-  "name": "project-abuz",
-  "version": "0.1",
-  "description": "n/a",
-  "main": "server.js",
-
-  "dependencies": {
-    "express": "^4.17.3"
-  },
-  "license": "MIT",
-  "keywords": [
-    "Abuz",
-    "abuz",
-    "ABUZ"
-  ]
-}
+{"//1":"describes your app and its dependencies","name":"project-abuz","version":"0.1","description":"n/a","main":"server.js","dependencies":{"express":"^4.17.3","three":"^0.140.2"},"license":"MIT","keywords":["Abuz","abuz","ABUZ"]}
